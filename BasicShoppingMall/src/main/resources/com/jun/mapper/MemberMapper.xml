@@ -9,7 +9,7 @@
 		VALUES
 		(
 			#{memberId},
-			#{memberPw},
+			#{memberPW},
 			#{memberName},
 			#{memberMail},
 			#{memberAddr1},

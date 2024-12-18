@@ -130,7 +130,10 @@ $(".mail_check_button").click(function(){
 	
 	$.ajax({        
         type:"GET",
-        url:"mailCheck?email=" + email
+        url:"mailCheck?email=" + email,
+		success:function(data){
+			console.log("data : " + data);
+        }        		
                 
     });
 });

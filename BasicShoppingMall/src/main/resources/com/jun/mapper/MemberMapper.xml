@@ -21,5 +21,12 @@
 			5000
 		)		
 	</insert>
+	
+	<select id="idCheck" resultType="int">
+		SELECT COUNT(*)
+		FROM BOOK_MEMBER
+		WHERE 1=1
+		AND MEMBERID = #{memberId}
+	</select>
 
 </mapper>

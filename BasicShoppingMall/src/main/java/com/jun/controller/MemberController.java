@@ -59,5 +59,13 @@ public class MemberController {
 			return "success"; //중복 아이디 x
 		}
 	}
+	
+	//이메일 인증
+	@GetMapping("/mailCheck")
+	@ResponseBody
+	public void mailCheckGET(String email) throws Exception {
+		logger.info("이메일 데이터 전송 확인");
+		logger.info("인증번호 : " + email);
+	}
 		
 }

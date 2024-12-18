@@ -9,6 +9,13 @@
 	color : red;
 	display : none;
 }
+#mail_check_input_box_false{
+    background-color:#ebebe4;
+}
+ 
+#mail_check_input_box_true{
+    background-color:white;
+}
 *{
 	margin: 0;
 	padding:0;
